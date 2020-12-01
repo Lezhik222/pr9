@@ -1,0 +1,29 @@
+body {background: url(Site/images/General/BG/bg.jpg) no-repeat center top/cover; width: 100%;}
+* { margin: 0; padding: 0; box-sizing: border-box;}
+header {background: rgba(0, 0, 0, 0.7) no-repeat center top/cover; height:8vw; width: 100%;}
+.logo { float: left; padding-top:1vw; padding-left:1vw ; width: 8vw;}
+.title { float: left; padding-top: 2vw; padding-left: 2vw; width: 20vw;}
+.Pages { float: left; padding-top: 2.5vw;  padding-left: 2vw; width: 50vw;}
+   ul {  list-style: none; margin: 0;  }
+   li {float: left; display:inline; padding-left: 3vw;}
+.SocialNet { float: right; padding-top: 1.5vw; padding-right: 1vw; width: 19vw ; }
+p {text-align: left;}
+a {color: white; text-decoration: none;}
+a:active {color:rgba(177, 44, 238, 0.938)}
+a:visited {text-decoration: none;}
+a:hover { color: rgba(177, 44, 238, 0.938); text-shadow:white 0 0 60px; text-decoration: none; }
+
+ @font-face
+{
+ font-family: FONT;
+ src: url(Site/FONTs/JUSTICE\LEAGUE.ttf); 
+ font-family: FONT2;
+ src: url(Site/FONTs/trebucbd.ttf);
+}
+   h1 { font-family: FONT, 'JUSTICE LEAGUE'; font-size: 3vw; color: white;  }
+   h2 { font-family: FONT2, 'trebucbd'; font-size: 3vw;}
+   h3 { font-family: FONT2, 'trebucbd'; font-size: 1vw; color:rgba(177, 44, 238, 0.938);  }
+   h4 { font-family: FONT2, 'trebucbd'; font-size: 2vw; color:white; position: absolute; top: 15vw; width: 25vw; left: 25%;}
+
+
+   footer { background: black no-repeat center top/cover; opacity: 80%; height:1.2vw; width: 100%; text-align: center; left: 0; bottom: 0; position: fixed} 
